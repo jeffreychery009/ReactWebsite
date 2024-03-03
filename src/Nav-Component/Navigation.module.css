@@ -1,0 +1,142 @@
+.logo {
+  height: 45px;
+  object-fit: contain;
+}
+
+.link {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  align-items: center;
+  width: 100%;
+  background: #170f2e;
+}
+
+.navPadding {
+  padding: 2rem 3rem;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.textContainer {
+  position: relative;
+  right: 28px;
+}
+
+.paragraph {
+  display: flex;
+  position: relative;
+  bottom: -11px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  color: 18px;
+}
+
+.span {
+  display: none;
+}
+
+.ul {
+  display: none;
+  flex-direction: row;
+  gap: 2.5rem;
+  list-style-type: none;
+}
+
+.li {
+  font-weight: 500;
+  cursor: pointer;
+  color: 18px;
+}
+
+.li a {
+  color: lightgray;
+}
+
+.li a:hover {
+  color: #fff;
+}
+
+.menuContainer {
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+
+  @media screen and (min-width: 640px) {
+    display: none;
+  }
+}
+
+.toggleMenuContainer {
+  position: absolute;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(90, 92, 106) 0%,
+    rgb(32, 45, 58) 81.3%
+  );
+  right: 0;
+  border-radius: 0.25rem;
+  top: 5rem;
+  z-index: 10;
+  padding: 1.5rem;
+  margin: 0.5rem 1rem;
+  min-width: 8.75rem;
+}
+
+.menuNotAppear {
+  display: none;
+}
+
+.menuAppear {
+  display: flex;
+}
+
+@media screen and (min-width: 640px) {
+  .ulColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: flex-start;
+    list-style-type: none;
+  }
+  .ul {
+    display: flex;
+  }
+  .menuToggle {
+    object-fit: contain;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+  }
+  .navPadding {
+    padding: 2rem 3rem;
+  }
+  .menuContainer {
+    display: none;
+  }
+}
+@media screen and (min-width: 790px) {
+  .span {
+    display: block;
+  }
+}
