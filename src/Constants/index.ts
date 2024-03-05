@@ -22,3 +22,10 @@ export const navLinks: NavLink[] = [
     title: "Contact",
   },
 ];
+
+export interface description {
+  description: string;
+}
+
+export const description: string =
+  "Looking for someone who loves to design and develop software? You found the right person";
