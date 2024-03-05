@@ -27,5 +27,5 @@ export interface description {
   description: string;
 }
 
-export const description: string =
-  "Looking for someone who loves to design and develop software? You found the right person";
+export const description: string = `Looking for someone who loves to design, 
+develop software, and create cool UI? You found the right person.`;
