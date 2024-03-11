@@ -78,12 +78,8 @@
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 280px) {
   .header {
     font-size: 40px;
-  }
-  .section {
-    position: relative;
-    right: 15px;
   }
 }
