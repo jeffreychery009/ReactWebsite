@@ -28,4 +28,4 @@ export interface description {
 }
 
 export const description: string = `Looking for someone who loves to design, 
-develop software, and create cool UI? You found the right person.`;
+develop software, and create cool UI? You found the right person. Feel free to reach out!`;
