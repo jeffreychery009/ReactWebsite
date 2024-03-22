@@ -21,6 +21,10 @@ export const navLinks: NavLink[] = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "experience",
+    title: "Experience",
+  },
 ];
 
 export interface description {
